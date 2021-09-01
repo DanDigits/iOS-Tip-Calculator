@@ -10,8 +10,8 @@ Time spent: 5 hours spent in total
 
 The following **required** functionality is complete:
 
-* [#] User can enter a bill amount, choose a tip percentage, and see the tip and total values.
-* [ ] User can select between tip percentages by tapping different values on the segmented control and the tip value is updated accordingly
+* [x] User can enter a bill amount, choose a tip percentage, and see the tip and total values.
+* [x] User can select between tip percentages by tapping different values on the segmented control and the tip value is updated accordingly
 
 The following **optional** features are implemented:
 
@@ -38,8 +38,8 @@ Describe any challenges encountered while building the app.
 
 The greatest challenge to building this app was the lack of knowledge of Swift present when coding. Initally, an attempt was made to
 add a stepper to increase the tip amount, but for some reason (or one I was unable to debug) XCode was not allowing me to update a Label
-from information from the stepper. After this, splittig the total bill was attempted again with a slider, which was successfully
-implemented with tip evaluation, however for some reason the split number for the bill would not update unless tip or bill amount was modified. To me, again, this made no sense as reveiwing the code and everything present on xcode, I couldnt figure why this was. Tip amount properly modified when changing, but not this specific slider, which was basically the same implementation. Alongside this, my lack of Swift knowledge prevented me from adding more to the tip calculator.  
+with information from the stepper. After this, a splitting feature for the total bill was attempted again with a slider, which was successfully
+implemented with tip evaluation; however for some reason, the split number for the bill would not update unless tip or bill amount was modified. To me, again, this made no sense as after reviewing the code and everything present on XCode, I could not figure why this was. Tip amount properly modified when changing, but not this specific slider, which was practically the same implementation. Alongside this, my lack of Swift knowledge prevented me from adding more features to the tip calculator, though I did try animations and new windows/panes/UI panels, but I just could not properly implement them without more training.
 
 ## License
 
